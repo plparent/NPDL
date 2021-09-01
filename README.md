@@ -20,7 +20,7 @@ This project was made for academic purposes (Université de Sherbrooke) and aims
 
 The code is commented in french (requested by our supervising professor). Some function signatures were modified with "_npdl" to make it harder for students to find this code with a copy-paste. The commit history on this repository is empty, since the project was originally made on the university's GitLab and copied to GitHub afterwards.
 
-The code is designed around layers with a forward and backward function which are sequentially during training. Those layers are contained inside our Model class which is only for sequential models. For the transformer, we created a specific class that executes layers in a non-sequential order.
+The code is designed around layers with a forward and backward function which are sequential during training. Those layers are contained inside our Model class which is only for sequential models. For the transformer, we created a specific class that executes layers in a non-sequential order.
 
 We also had a small adversarial attack project where we use this project to investigate error propagation in a network. (This can be found in AA_cifar10.ipynb)
 
